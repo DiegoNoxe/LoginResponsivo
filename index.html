@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="shortcut icon" href="email.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="kidcontainer">
+            <div class="imgs">
+                <img src="undraw_profile-pic_fatv (1).svg" alt="">
+            </div>
+            <h1>Sing Up for Free</h1>
+            <br>
+            <form onsubmit="Mostrando(event)">
+            <input id="FirstName" type="text" placeholder="Your FirstName">
+            <input id="SecondName" type="text" placeholder="Your Second name">
+            <div class="down">
+                <br>
+                <input id="UserEmail" type="email" placeholder="Your Email">
+                <input type="password" type="number" placeholder="Your password">
+            </div>
+            <br>
+            <p>Gender</p>
+            <div class="opcoes">
+                <label>
+                    <input type="radio" name="opcao" value="1">
+                    F
+                </label>
+                <label>
+                    <input type="radio" name="opcao" value="2">
+                    M
+                </label>
+                <label>
+                    <input type="radio" name="opcao" value="3">
+                    I'd rather not answer
+                </label>
+            </div>
+            <br>
+            <button id="btd">GET STARTED</button>
+            </form>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
